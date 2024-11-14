@@ -5,6 +5,8 @@ function fizzBuzz(num) {
   // De lo contrario, retorna false.
   // Tu código:
 
+  // IMPORTANTE!! El orden de como se lea la funcion influye
+
 if( num % 3 === 0 && num % 5 === 0){
   return "fizzbuzz"
 }else if (num % 5 === 0) {

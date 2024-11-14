@@ -4,13 +4,8 @@ function obtenerMayor(x, y) {
   // Si son iguales, retornar cualquiera de los dos.
   // Tu código:
 
-  if ( x === y ){
-    return Math.random ()
-  } else if ( x > y ){
-    return x
-  } else {
-    return y
-  }
+  // funcion .max permite retornar numero mas grande
+  return Math.max ( x, y )
   }
 
 module.exports = obtenerMayor;

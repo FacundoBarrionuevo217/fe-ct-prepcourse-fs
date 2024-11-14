@@ -5,6 +5,9 @@ function esEntero(num) {
   // Ejemplo: (-10) ---> true
   // De lo contrario, retorna false.
   // Tu código:
+
+// return number.isInteger (num)
+
   if ( num % 1 === 0 ){
     return true
   }else{

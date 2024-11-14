@@ -7,6 +7,22 @@ function obtenerDiaSemana(numero) {
   // el string "No es un dia de la semana"
   // Tu código:
 
+
+// switch (numero){
+//   case 1:
+//    return "Lunes"
+//   case 2:
+//    return "Martes"
+//   case 3:
+//    return "Miercoles"
+//  
+//    ...
+//    ...
+//    ...
+//  default:
+//    return "No es un dia de la semana"
+//}
+
 if (numero === 1){
   return "Lunes"
 } else if (numero === 2){

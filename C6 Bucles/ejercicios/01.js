@@ -4,7 +4,7 @@ function esIgualYNegativo(a, b) {
   // De ser así, retorna true, de lo contrario, retorna false.
   // Tu código:
 
-if ( a < 0 && a==b && b < 0){
+if ( a < 0 && a === b && b < 0){
   return true
 } else{
   return false

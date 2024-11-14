@@ -11,7 +11,6 @@ function colors(color) {
 switch (color) {
   case "blue":
     return "This is blue"
-    break;
   case "red":
     return "This is red"
   case "green":
@@ -20,7 +19,6 @@ switch (color) {
     return "This is orange"
   default:
     return "Color not found"
-    break;
 }
 
 }
